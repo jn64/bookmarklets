@@ -2,6 +2,8 @@
 
 Collection of browser bookmarklets
 
+**Please [view these pages via github.io](https://jn64.github.io/bookmarklets/).** Github.com strips out the bookmarklet links as they contain JavaScript.
+
 - [Dictionary lookup](./dictionary-lookup/README.md) — look up selected text in a dictionary
 - [Google Translate](./google-translate/README.md) — translate selected text or the entire page
 - [Old Reddit](./old-reddit/README.md) — toggle between new and old Reddit
