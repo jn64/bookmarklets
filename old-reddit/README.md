@@ -13,8 +13,9 @@ Drag this to your bookmarks toolbar: <a href="javascript:(function(){var%20h=loc
 ```js
 javascript:(
 	function() {
-		var h = location.hostname,
-			p = location.pathname,
+		var l = location;
+		var h = l.hostname,
+			p = l.pathname + l.search + l.hash,
 			w = 'www.reddit.com',
 			o = 'old.reddit.com';
 		if (h == w) {
@@ -29,5 +30,5 @@ javascript:(
 Minified:
 
 ```js
-javascript:(function(){var%20h=location.hostname,p=location.pathname,w='www.reddit.com',o='old.reddit.com';if(h==w){location.replace('https://'+o+p)}else%20if(h==o){location.replace('https://'+w+p)}})();
+javascript:(function(){var%20l=location;var%20h=l.hostname,p=l.pathname+l.search+l.hash,w='www.reddit.com',o='old.reddit.com';if(h==w){location.replace('https://'+o+p)}else%20if(h==o){location.replace('https://'+w+p)}})();
 ```
