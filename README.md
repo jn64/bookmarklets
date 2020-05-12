@@ -9,8 +9,8 @@ Collection of browser bookmarklets
 
 ## Useful links
 
-- [Implementing bookmarklets in JavaScript by Dr. Axel Rauschmayer](https://2ality.com/2011/06/implementing-bookmarklets.html)
+- [Implementing bookmarklets in JavaScript by Dr. Axel Rauschmayer](https://2ality.com/2011/06/implementing-bookmarklets.html)  
   Some tips on encoding URLs and using bookmarklets via browser keywords
 
-- [Bookmarklet Creator with Script Includer by Peter Coles](https://mrcoles.com/bookmarklet/)
+- [Bookmarklet Creator with Script Includer by Peter Coles](https://mrcoles.com/bookmarklet/)  
   Example of using externally sourced scripts in bookmarklets
