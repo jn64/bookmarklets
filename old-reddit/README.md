@@ -6,7 +6,7 @@ i.e. if you are on `www.reddit.com`, it will reload the same post on `old.reddit
 
 ## Installation
 
-Drag this to your bookmarks toolbar: <a href="javascript:(function(){var%20h=location.hostname,p=location.pathname,w='www.reddit.com',o='old.reddit.com';if(h==w){location.replace('https://'+o+p)}else%20if(h==o){location.replace('https://'+w+p)}})();" class="bookmarklet">Old Reddit</a>
+Drag this to your bookmarks toolbar: <a href="javascript:(function(){var%20l=location;var%20h=l.hostname,p=l.pathname+l.search+l.hash,w='www.reddit.com',o='old.reddit.com';if(h==w){location.replace('https://'+o+p)}else%20if(h==o){location.replace('https://'+w+p)}})();" class="bookmarklet">Old Reddit</a>
 
 ## Source
 
