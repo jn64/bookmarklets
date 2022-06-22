@@ -36,4 +36,4 @@ Get the link to the current page in various syntaxes
 
 ---
 
-[About bookmarklets](./about.md) | [GitHub project page](https://github.com/jn64/bookmarklets)
+[About bookmarklets](./about) | [GitHub project page](https://github.com/jn64/bookmarklets)
