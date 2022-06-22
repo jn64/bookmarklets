@@ -1,5 +1,3 @@
-# Bookmarklets
-
 To "install", simply drag the links to your bookmarks toolbar/menu.
 
 ## Dictionary
@@ -35,3 +33,7 @@ Get the link to the current page in various syntaxes
 - <a href='javascript:void prompt("Link to this page in Markdown:",`[${document.title}](${location.href})`);'>md link</a> — Markdown
 - <a href='javascript:void prompt("Link to this page in Org-mode:",`[[${location.href}][${document.title}]]`);'>org link</a> — org-mode
 - <a href='javascript:void prompt("Link to this page in MediaWiki:",`[${location.href} ${document.title}]`);'>wiki link</a> — MediaWiki
+
+---
+
+[About bookmarklets](./about.md) | [GitHub project page](https://github.com/jn64/bookmarklets)
