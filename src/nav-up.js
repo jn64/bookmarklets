@@ -10,7 +10,10 @@
 	} else {
 		// /.../...
 		let pathArray = l.pathname.split("/");
-		pathArray.pop();
+		if (!pathArray.pop()) {
+			// pop twice if pathname had a trailing slash /
+			pathArray.pop();
+		}
 		l.pathname = pathArray.join("/");
 	}
 })();

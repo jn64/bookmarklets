@@ -21,7 +21,7 @@ To translate to a language other than English by default, change the `tl=en`.
 
 ## Page navigation
 
-- <a href='javascript:(function(){let e=location;if(e.hash)e.hash="";else if(e.search)e.search="";else{let a=e.pathname.split("/");a.pop(),e.pathname=a.join("/")}})();'>up</a> — go up one level (removes the last fragement `#...`, query `?...`, or path segment `/...` from the current URL)
+- <a href='javascript:(function(){let e=location;if(e.hash)e.hash="";else if(e.search)e.search="";else{let a=e.pathname.split("/");a.pop()||a.pop(),e.pathname=a.join("/")}})();'>up</a> — go up one level (removes the last fragement `#...`, query `?...`, or path segment `/...` from the current URL)
 - <a href='javascript:(function(){const n=location.toString().match(/^(.*?)(0*)(\d+)([^\d]*)$/);if(n){const t=n[1];let o=n[2];const e=n[3],i=n[4],l=String(Number(e)+1);l.length>e.length&&(o=o.substring(0,o.length-1)),location=t+o+l+i}else alert("No number found in URL.")})();'>[+]</a> — increments the last number in the URL by 1. Useful for browsing blogs or webcomics with sequential post IDs
 - <a href='javascript:(function(){const n=location.toString().match(/^(.*?)(0*)(\d+)([^\d]*)$/);if(n){const t=n[1];let o=n[2];const e=n[3],l=n[4],c=String(Number(e)-1);o.length>0&&c.length<e.length&&(o+="0"),location=t+o+c+l}else alert("No number found in URL.")})();'>[-]</a> — decrements the last number in the URL by 1.
 
