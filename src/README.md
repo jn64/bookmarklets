@@ -12,7 +12,7 @@ Note to self: writing obfuscated code or generating the smallest code possible i
 
 I used to hand-tweak the output from various minifiers, which had the potential for typos or errors.
 
-Now I simply use [Terser](https://terser.org/) with a little bit of bash, and use the minified output exactly as-is for the bookmarklets. Please refer to [bk.sh](`./bk.sh`) for details. This page may become outdated when I update the shell script.
+Now I simply use [Terser](https://terser.org/) with a little bit of bash, and use the minified output exactly as-is for the bookmarklets. Please refer to [`bk.sh`](./bk.sh) for details. This page may become outdated when I update the shell script.
 
 ### Terser
 
