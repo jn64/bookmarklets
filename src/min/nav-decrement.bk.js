@@ -1,0 +1,1 @@
+javascript:(function(){const n=location.toString().match(/^(.*?)(0*)(\d+)([^\d]*)$/);if(n){const t=n[1];let o=n[2];const e=n[3],l=n[4],c=String(Number(e)-1);o.length>0&&c.length<e.length&&(o+="0"),location=t+o+c+l}else alert("No number found in URL.")})();

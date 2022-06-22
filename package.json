@@ -1,0 +1,6 @@
+{
+	"name": "bookmarklets",
+	"devDependencies": {
+		"terser": "^5.14.1"
+	}
+}

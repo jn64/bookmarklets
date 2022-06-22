@@ -1,0 +1,1 @@
+javascript:(function(){const t=location,o=t.hostname,a=t.pathname+t.search+t.hash,n="www.reddit.com",s="old.reddit.com";o===n?location.assign("https://"+s+a):o===s&&location.assign("https://"+n+a)})();

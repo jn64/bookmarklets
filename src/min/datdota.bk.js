@@ -1,0 +1,1 @@
+javascript:(function(){const t=location,o=t.hostname,a=t.pathname.split("/",3),n="www.dotabuff.com",s="www.datdota.com";o===n&&"matches"===a[1]?location.assign("https://"+s+a.join("/")):o===s&&"matches"===a[1]&&location.assign("https://"+n+a.join("/"))})();

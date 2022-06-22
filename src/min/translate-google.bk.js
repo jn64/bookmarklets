@@ -1,0 +1,1 @@
+javascript:(function(){const e=window.getSelection().toString().trim();let t="",n="";e?t="text="+encodeURIComponent(e):(t="u="+encodeURIComponent(location.href),n="translate"),window.open(`https://translate.google.com/${n}?sl=auto&tl=en&${t}`,"_blank","height=800,width=600,noopener,noreferrer")})();
