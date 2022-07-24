@@ -33,6 +33,7 @@ Get the link to the current page in various syntaxes
 - <a href='javascript:void prompt("Link to this page in Markdown:",`[${document.title}](${location.href})`);'>md link</a> — Markdown
 - <a href='javascript:void prompt("Link to this page in Org-mode:",`[[${location.href}][${document.title}]]`);'>org link</a> — org-mode
 - <a href='javascript:void prompt("Link to this page in MediaWiki:",`[${location.href} ${document.title}]`);'>wiki link</a> — MediaWiki
+- <a href='javascript:(function(){const e=location;let a="";switch(e.hostname){case"bugs.kde.org":a="kde#";break;case"bugzilla.kernel.org":a="kernel#";break;case"bugzilla.mozilla.org":a="bmo#";break;case"bugzilla.redhat.com":a="rhbz#"}prompt("Link to this page in Markdown:",`[${a}${document.title}](${e.href})`)})();'>md link</a> — Markdown with Bugzilla support. Adds a prefix to disambiguate different BZ links (e.g. rhbz#12345 - Bug description). Currently includes rhbz, bmo, kernel, and kde. Works normally for all other URLs.
 
 ---
 

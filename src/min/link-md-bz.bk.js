@@ -1,0 +1,1 @@
+javascript:(function(){const e=location;let a="";switch(e.hostname){case"bugs.kde.org":a="kde#";break;case"bugzilla.kernel.org":a="kernel#";break;case"bugzilla.mozilla.org":a="bmo#";break;case"bugzilla.redhat.com":a="rhbz#"}prompt("Link to this page in Markdown:",`[${a}${document.title}](${e.href})`)})();
