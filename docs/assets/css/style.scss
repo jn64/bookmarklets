@@ -1,0 +1,15 @@
+---
+---
+@import "{{ site.theme }}";
+
+a[href^="javascript"] {
+	border: 1px solid #0366d6;
+	border-radius: 0.25rem;
+	display: inline-block;
+	padding: 0.25rem;
+	text-decoration: none;
+
+	&:hover {
+		background: #f1f8ff;
+	}
+}
